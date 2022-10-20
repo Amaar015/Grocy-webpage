@@ -3,7 +3,6 @@ import './App.css';
 import Home from './component/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
-import Offer from './component/Offer';
 function App() {
   return (
     <>
@@ -11,7 +10,7 @@ function App() {
 <Routes>
 
       <Route index element={<Home/>}/>
-       <Route path='offer' element={<Offer/>}/>
+       {/* <Route path='category' element={<Category/>}/> */}
        </Routes>
     </BrowserRouter>
 

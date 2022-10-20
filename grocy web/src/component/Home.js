@@ -4,10 +4,11 @@ import Header from './Header'
 import bg from './images/home-img.png'
 import banner1 from './images/banner-1.jpg'
 import banner2 from './images/banner-2.jpg'
-
+import Category from './Category';
+import Offer from './Offer'; 
 const Home = () => {
   return (
-    
+    <>
     <section className="home">
     <Header/>
     <Nav/>
@@ -28,7 +29,7 @@ const Home = () => {
                     <div className="offer_content">
                     <img src={banner1} alt=""/>
         <div class="content">
-            <h3>special offer</h3>
+            <h3>Special Offer</h3>
             <p>upto 45% off</p>
             <button class="btn">check out</button>
         </div>
@@ -37,15 +38,16 @@ const Home = () => {
                   <div className="offer_content">
                     <img src={banner2} alt=""/>
         <div class="content">
-            <h3>special offer</h3>
+            <h3>Limited offer</h3>
             <p>upto 45% off</p>
             <button class="btn">check out</button>
         </div>
                   </div>
                   </div>
      </section>
-
-    
+     <Category/>
+     <Offer/>
+     </>
   )
 }
 
