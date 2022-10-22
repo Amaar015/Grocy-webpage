@@ -6,6 +6,9 @@ import banner1 from './images/banner-1.jpg'
 import banner2 from './images/banner-2.jpg'
 import Category from './Category';
 import Offer from './Offer'; 
+import Deal from './Deal';
+import Contact from './Contact';
+import News from './News';
 const Home = () => {
   return (
     <>
@@ -47,6 +50,10 @@ const Home = () => {
      </section>
      <Category/>
      <Offer/>
+     <Deal/>
+     <Contact/>
+     <News/>
+
      </>
   )
 }
