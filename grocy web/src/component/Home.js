@@ -9,6 +9,7 @@ import Offer from './Offer';
 import Deal from './Deal';
 import Contact from './Contact';
 import News from './News';
+import Footer from './Footer'
 const Home = () => {
   return (
     <>
@@ -53,6 +54,7 @@ const Home = () => {
      <Deal/>
      <Contact/>
      <News/>
+     <Footer/>
 
      </>
   )
